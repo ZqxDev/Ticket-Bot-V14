@@ -39,22 +39,22 @@ module.exports = {
                             .setPlaceholder('Select a category')
                             .addOptions([
                                 {
-                                    label: 'Report',
-                                    description: 'Report a user',
-                                    value: 'report',
-                                    emoji: '🐛'
+                                    label: 'General Inquiry',
+                                    description: 'For general questions and inquiries',
+                                    value: 'general_inquiry',
+                                    emoji: '🗨️'
                                 },
                                 {
-                                    label: 'Question',
-                                    description: 'any question',
-                                    value: 'question',
-                                    emoji: '📝'
+                                    label: 'Technical Support',
+                                    description: 'For technical issues and support',
+                                    value: 'technical_support',
+                                    emoji: '🛠️'
                                 },
                                 {
-                                    label: 'Other',
-                                    description: 'Other',
-                                    value: 'other',
-                                    emoji: '📁'
+                                    label: 'Billing Support',
+                                    description: 'For billing and payment issues',
+                                    value: 'billing_support',
+                                    emoji: '💰'
                                 }
                             ])
                         )
